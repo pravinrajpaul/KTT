@@ -1,0 +1,32 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Login -> Navigate to page '/app/home'",
+        "step 3: Click on link projects -> Navigate to page '/app/projects'",
+        "step 4: Click on link dailyTimesheetSummary -> Navigate to page '/app/query-report/*'",
+        "step 5: Click on link projects -> Navigate to page '/app/projects'",
+        "step 6: Click on link timesheet -> Navigate to page '/app/timesheet'",
+        "step 7: Click on button addTimesheet -> Navigate to page '/app/timesheet/new-timesheet-zbpicrvntf'",
+        "step 8: Click on input text",
+        "step 9: Click on div pvinOption",
+        "step 10: Click on input text2",
+        "step 11: Click on div optionAbcAbc",
+        "step 12: Click on input text3",
+        "step 13: Enter input value in input text3",
+        "step 14: Click on div optionUsd",
+        "step 15: Click on input text4",
+        "step 16: Click on div optionAbcsGearProj0001",
+        "step 17: Click on input text5",
+        "step 18: Click on div optionHrEmp00001",
+        "step 19: Click on div dataRow",
+        "step 20: Click on div executionOption",
+        "step 21: Click on input fromTime",
+        "step 22: Click on div datePickerDay15",
+        "step 23: Click on input hrs",
+        "step 24: Enter input value in input hrs",
+        "step 25: Click on div addRow",
+        "step 26: Click on button save -> Navigate to page '/app/timesheet/*'",
+        "step 27: Click on link timesheet -> Navigate to page ''",
+        "step 28: Take full page screenshot as checkpoint"
+    ]
+}

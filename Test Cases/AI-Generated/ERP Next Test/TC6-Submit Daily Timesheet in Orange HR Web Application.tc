@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>e665afa8-8548-4935-b5a5-2da3f7b3f5d2</id>
+        </flow>
+    </customField>
+    <description>Login to the Orange HR application, navigate to the projects and timesheet sections, fill in the timesheet details, and save the entry. Verify successful submission.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC6-Submit Daily Timesheet in Orange HR Web Application</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>74a6e513-c0ca-4338-8ae6-dccf4c2215c2</testCaseGuid>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>6ccd5702-1331-4c8f-add0-ea81b4e11791</id>
+        <masked>false</masked>
+        <name>input_hrs</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>e7f0c6f2-bf7d-4728-bb48-18c1ba5b9794</id>
+        <masked>false</masked>
+        <name>input_text3</name>
+    </variable>
+</TestCaseEntity>

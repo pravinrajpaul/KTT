@@ -1,0 +1,99 @@
+Flow ID,Name,Description,Test Steps,Flow Priority,Status
+4,Verify User Login on Orange HR Web Application Home Page,"Navigate to the home page, log in, and verify that the home page is displayed correctly.","Step 1: Navigate to /
+Step 2: Login -> Navigate to page ''
+Step 3: Take full page screenshot as checkpoint
+",High,NEW
+3,Add Timesheet Entry in Orange HR Web Application,"Log in and navigate to the timesheet section. Add a new timesheet entry with feedback and hours, then save and verify the home page.","Step 1: Navigate to http://erpsite.local:8000/
+Step 2: Login
+Step 3: Navigate to /app/home
+Step 4: Click on link projects -> Navigate to page '/app/projects'
+Step 5: Click on div timesheetLink -> Navigate to page '/app/timesheet'
+Step 6: Click on button addTimesheet -> Navigate to page '/app/timesheet/new-timesheet-mewgittmag'
+Step 7: Click on input textField
+Step 8: Click on div optionPvin
+Step 9: Click on input feedback
+Step 10: Click on div abcOption
+Step 11: Click on input feedback2
+Step 12: Enter input value in input feedback2
+Step 13: Click on div optionUsd
+Step 14: Click on input linkField
+Step 15: Click on div abcGearOption
+Step 16: Click on div object
+Step 17: Click on div researchOption
+Step 18: Click on input fromTime
+Step 19: Click on div object2
+Step 20: Click on input hours
+Step 21: Enter input value in input hours
+Step 22: Click on div addRow
+Step 23: Click on input checkbox
+Step 24: Click on button addRow
+Step 25: Click on div object3
+Step 26: Click on div planningOption
+Step 27: Click on input fromTime2
+Step 28: Click on div day8
+Step 29: Click on input hrs
+Step 30: Enter input value in input hrs
+Step 31: Click on input checkbox2
+Step 32: Click on button save -> Navigate to page '/app/timesheet/*'
+Step 33: Click on link timesheet -> Navigate to page ''
+Step 34: Take full page screenshot as checkpoint
+",Trivial,NEW
+5,Verify User Logout from Orange HR Web Application,"Log in to the application, access the user menu, log out, and verify that the login page is displayed.","Step 1: Navigate to http://erpsite.local:8000/
+Step 2: Login
+Step 3: Navigate to /app/home
+Step 4: Click on button userMenu
+Step 5: Click on button logOut -> Navigate to page '/login'
+Step 6: Take full page screenshot as checkpoint
+",Trivial,NEW
+2,Delete Timesheet Entry in Orange HR Web Application,"Log in, navigate to the timesheet section, select a timesheet entry, delete it, and verify that the home page is displayed.","Step 1: Navigate to http://erpsite.local:8000/
+Step 2: Login
+Step 3: Navigate to /app/home
+Step 4: Click on link projects -> Navigate to page '/app/projects'
+Step 5: Click on div timesheetLink -> Navigate to page '/app/timesheet'
+Step 6: Click on input checkbox
+Step 7: Click on button actions
+Step 8: Click on link delete
+Step 9: Click on button confirmYes -> Navigate to page ''
+Step 10: Take full page screenshot as checkpoint
+",Trivial,NEW
+1,Add and Submit Timesheet in Orange HR Web Application,"Login to the Orange HR application, navigate to the projects and timesheet sections, add a new timesheet entry, fill in the required fields, and submit the timesheet for approval.","Step 1: Navigate to http://erpsite.local:8000/
+Step 2: Login
+Step 3: Navigate to /app/home
+Step 4: Click on link projects -> Navigate to page '/app/projects'
+Step 5: Click on div timesheetLink -> Navigate to page '/app/timesheet'
+Step 6: Click on button addTimesheet -> Navigate to page '/app/timesheet/new-timesheet-isdeovpcae'
+Step 7: Click on input linkField
+Step 8: Click on div optionPvin
+Step 9: Click on input textField
+Step 10: Click on div abcOption
+Step 11: Click on input linkField2
+Step 12: Enter input value in input linkField2
+Step 13: Click on div usdOption
+Step 14: Click on input textField2
+Step 15: Click on div abcOption2
+Step 16: Click on input feedback
+Step 17: Click on div optionHrEmp00001
+Step 18: Click on div object
+Step 19: Click on input textField3
+Step 20: Enter input value in input textField3
+Step 21: Click on input object
+Step 22: Click on div day15
+Step 23: Click on input feedback2
+Step 24: Click on div dynamicObject (object2)
+Step 25: Click on input textField4
+Step 26: Click on button object
+Step 27: Click on button addRow
+Step 28: Click on div dataRow
+Step 29: Click on div optionPlanning
+Step 30: Click on input fromTime
+Step 31: Click on div dynamicObject (day8)
+Step 32: Click on input hours
+Step 33: Enter input value in input hours
+Step 34: Click on div addRow
+Step 35: Click on input checkbox
+Step 36: Click on button save -> Navigate to page '/app/timesheet/*'
+Step 37: Click on button submit
+Step 38: Click on button confirmNo
+Step 39: Click on link timesheet -> Navigate to page ''
+Step 40: Take full page screenshot as checkpoint
+",Trivial,NEW

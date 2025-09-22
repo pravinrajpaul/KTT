@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>1e036062-1c70-4810-8c31-3ecb419ed70f</id>
+        </flow>
+    </customField>
+    <description>Log in to the application, access the user menu, log out, and verify that the login page is displayed.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC5-Verify User Logout from Orange HR Web Application</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>245355b0-c001-4fef-be46-00deb8806bb7</testCaseGuid>
+</TestCaseEntity>

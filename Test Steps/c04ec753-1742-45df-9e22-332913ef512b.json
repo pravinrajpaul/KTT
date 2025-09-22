@@ -1,0 +1,14 @@
+{
+    "steps": [
+        "step 1: Navigate to http://erpsite.local:8000/",
+        "step 2: Login",
+        "step 3: Navigate to /app/home",
+        "step 4: Click on link projects -> Navigate to page '/app/projects'",
+        "step 5: Click on div timesheetLink -> Navigate to page '/app/timesheet'",
+        "step 6: Click on input checkbox",
+        "step 7: Click on button actions",
+        "step 8: Click on link delete",
+        "step 9: Click on button confirmYes -> Navigate to page ''",
+        "step 10: Take full page screenshot as checkpoint"
+    ]
+}

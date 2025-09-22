@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>bbc04961-6c90-4ce9-a156-0d7b9ace64c6</id>
+        </flow>
+    </customField>
+    <description>Login to the Orange HR application, navigate to the projects and timesheet sections, add a new timesheet entry, fill in the required fields, and submit the timesheet for approval.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC1-Add and Submit Timesheet in Orange HR Web Application</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>a1169f14-c7b5-44b7-b75c-2c7cfadd7d29</testCaseGuid>
+    <variable>
+        <defaultValue>'2'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>cf505a9f-db28-4211-8ffc-a6658c25c289</id>
+        <masked>false</masked>
+        <name>div_dynamicObject_divNthChild</name>
+    </variable>
+    <variable>
+        <defaultValue>'20'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>6e8d5cf8-7d56-4315-a561-43f50c65c2dd</id>
+        <masked>false</masked>
+        <name>div_dynamicObject_divNthChild_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'9'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>1ae99930-42cd-472f-9102-0e5bad6fc797</id>
+        <masked>false</masked>
+        <name>div_dynamicObject_divNthChild_1_1</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>2793b71f-f69d-4d02-b5c2-2cbdca8fdcf8</id>
+        <masked>false</masked>
+        <name>input_hours</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>89fd86cf-038b-41ac-9718-6ddcc2799239</id>
+        <masked>false</masked>
+        <name>input_linkField2</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>6c969c4f-5be9-40c0-a52c-ffc3f071a7c6</id>
+        <masked>false</masked>
+        <name>input_textField3</name>
+    </variable>
+</TestCaseEntity>

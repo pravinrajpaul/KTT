@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>84a3be94-e06d-4b80-a331-40f02e56ec96</id>
+        </flow>
+    </customField>
+    <description>Log in and navigate to the timesheet section. Add a new timesheet entry with feedback and hours, then save and verify the home page.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC3-Add Timesheet Entry in Orange HR Web Application</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>94b945dc-8080-4481-8d59-3731efaaf019</testCaseGuid>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>bd3be8f4-5357-4351-8d7a-7cf924c902c7</id>
+        <masked>false</masked>
+        <name>input_feedback2</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>3ff96660-adce-4183-844b-68fced393455</id>
+        <masked>false</masked>
+        <name>input_hours</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>a541e628-3d58-4744-888e-3972d58560ae</id>
+        <masked>false</masked>
+        <name>input_hrs</name>
+    </variable>
+</TestCaseEntity>

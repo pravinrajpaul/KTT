@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
 <TestCaseEntity>
-    <comment></comment>
+    <comment />
     <customField>
         <flow>
             <id>51064ed1-46d8-4c97-8074-3b9aa63c3413</id>
@@ -19,6 +18,6 @@
     </integratedEntity>
     <name>TC4-Verify User Login on Orange HR Web Application Home Page</name>
     <origin>TRUETEST</origin>
-    <tag></tag>
+    <tag>App, Login</tag>
     <testCaseGuid>7935b04d-a7f7-423a-90e9-45aabad56631</testCaseGuid>
 </TestCaseEntity>

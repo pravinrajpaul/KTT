@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
 <TestCaseEntity>
-    <comment></comment>
+    <comment />
     <customField>
         <flow>
             <id>1e036062-1c70-4810-8c31-3ecb419ed70f</id>
@@ -19,6 +18,6 @@
     </integratedEntity>
     <name>TC5-Verify User Logout from Orange HR Web Application</name>
     <origin>TRUETEST</origin>
-    <tag></tag>
+    <tag>App, Login</tag>
     <testCaseGuid>245355b0-c001-4fef-be46-00deb8806bb7</testCaseGuid>
 </TestCaseEntity>

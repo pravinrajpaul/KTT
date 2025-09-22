@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
 <TestCaseEntity>
-    <comment></comment>
+    <comment />
     <customField>
         <flow>
             <id>84a3be94-e06d-4b80-a331-40f02e56ec96</id>
@@ -19,7 +18,7 @@
     </integratedEntity>
     <name>TC3-Add Timesheet Entry in Orange HR Web Application</name>
     <origin>TRUETEST</origin>
-    <tag></tag>
+    <tag>HR, Timesheet, Add</tag>
     <testCaseGuid>94b945dc-8080-4481-8d59-3731efaaf019</testCaseGuid>
     <variable>
         <defaultValue>''</defaultValue>

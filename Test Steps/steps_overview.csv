@@ -3,6 +3,12 @@ Flow ID,Name,Description,Test Steps,Flow Priority,Status
 Step 2: Login -> Navigate to page ''
 Step 3: Take full page screenshot as checkpoint
 ",High,RETAINED
+7,User Logout from ERP Application,"Navigate to the home page, log in, access the user menu, and log out. Verify that the login page is displayed after logout.","Step 1: Navigate to /
+Step 2: Login -> Navigate to page '/app/home'
+Step 3: Click on button userMenu
+Step 4: Click on button logOut -> Navigate to page '/login'
+Step 5: Take full page screenshot as checkpoint
+",Medium,NEW
 6,Submit Daily Timesheet in Orange HR Web Application,"Login to the Orange HR application, navigate to the projects and timesheet sections, fill in the timesheet details, and save the entry. Verify successful submission.","Step 1: Navigate to /
 Step 2: Login -> Navigate to page '/app/home'
 Step 3: Click on link projects -> Navigate to page '/app/projects'
@@ -31,7 +37,26 @@ Step 25: Click on div addRow
 Step 26: Click on button save -> Navigate to page '/app/timesheet/*'
 Step 27: Click on link timesheet -> Navigate to page ''
 Step 28: Take full page screenshot as checkpoint
-",Medium,NEW
+",Medium,RETAINED
+8,Manage Timesheet Actions in ERP Application,"Access the projects page, navigate to the timesheet, and perform various actions including confirming and canceling options. Verify return to the home page.","Step 1: Navigate to /app/home
+Step 2: Click on link projects -> Navigate to page '/app/projects'
+Step 3: Click on div timesheetLink -> Navigate to page '/app/timesheet'
+Step 4: Click on input checkbox
+Step 5: Click on span object
+Step 6: Click on link actionOptions (delete)
+Step 7: Click on button confirmYes
+Step 8: Click on link cancel
+Step 9: Click on button object
+Step 10: Click on input checkbox
+Step 11: Click on button actions
+Step 12: Click on link actionOptions (cancel2)
+Step 13: Click on button confirmationYes (yes)
+Step 14: Click on input checkbox
+Step 15: Click on button actions
+Step 16: Click on link actionOptions (delete)
+Step 17: Click on button confirmationYes (yes2) -> Navigate to page ''
+Step 18: Take full page screenshot as checkpoint
+",Low,NEW
 3,Add Timesheet Entry in Orange HR Web Application,"Log in and navigate to the timesheet section. Add a new timesheet entry with feedback and hours, then save and verify the home page.","Step 1: Navigate to http://erpsite.local:8000/
 Step 2: Login
 Step 3: Navigate to /app/home
@@ -66,7 +91,7 @@ Step 31: Click on input checkbox2
 Step 32: Click on button save -> Navigate to page '/app/timesheet/*'
 Step 33: Click on link timesheet -> Navigate to page ''
 Step 34: Take full page screenshot as checkpoint
-",Trivial,STABLE
+",Trivial,RETAINED
 5,Verify User Logout from Orange HR Web Application,"Log in to the application, access the user menu, log out, and verify that the login page is displayed.","Step 1: Navigate to http://erpsite.local:8000/
 Step 2: Login
 Step 3: Navigate to /app/home
@@ -125,4 +150,4 @@ Step 37: Click on button submit
 Step 38: Click on button confirmNo
 Step 39: Click on link timesheet -> Navigate to page ''
 Step 40: Take full page screenshot as checkpoint
-",Trivial,STABLE
+",Trivial,RETAINED

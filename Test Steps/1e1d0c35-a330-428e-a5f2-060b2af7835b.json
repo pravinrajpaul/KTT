@@ -1,0 +1,22 @@
+{
+    "steps": [
+        "step 1: Navigate to /app/home",
+        "step 2: Click on link projects -> Navigate to page '/app/projects'",
+        "step 3: Click on div timesheetLink -> Navigate to page '/app/timesheet'",
+        "step 4: Click on input checkbox",
+        "step 5: Click on span object",
+        "step 6: Click on link actionOptions (delete)",
+        "step 7: Click on button confirmYes",
+        "step 8: Click on link cancel",
+        "step 9: Click on button object",
+        "step 10: Click on input checkbox",
+        "step 11: Click on button actions",
+        "step 12: Click on link actionOptions (cancel2)",
+        "step 13: Click on button confirmationYes (yes)",
+        "step 14: Click on input checkbox",
+        "step 15: Click on button actions",
+        "step 16: Click on link actionOptions (delete)",
+        "step 17: Click on button confirmationYes (yes2) -> Navigate to page ''",
+        "step 18: Take full page screenshot as checkpoint"
+    ]
+}

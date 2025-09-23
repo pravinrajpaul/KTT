@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
 <TestCaseEntity>
-    <comment></comment>
+    <comment />
     <customField>
         <flow>
             <id>1e1d0c35-a330-428e-a5f2-060b2af7835b</id>
@@ -19,7 +18,7 @@
     </integratedEntity>
     <name>TC8-Manage Timesheet Actions in ERP Application</name>
     <origin>TRUETEST</origin>
-    <tag></tag>
+    <tag>HR, Timesheet, Manage</tag>
     <testCaseGuid>c16a3d2c-1f19-4d3c-83b1-b9f5ba3494cf</testCaseGuid>
     <variable>
         <defaultValue>'1'</defaultValue>

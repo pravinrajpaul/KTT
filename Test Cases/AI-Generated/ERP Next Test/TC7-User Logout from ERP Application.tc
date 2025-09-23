@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
 <TestCaseEntity>
-    <comment></comment>
+    <comment />
     <customField>
         <flow>
             <id>abc21ee4-ae75-4dea-85a4-dff627d45cbe</id>
@@ -19,6 +18,6 @@
     </integratedEntity>
     <name>TC7-User Logout from ERP Application</name>
     <origin>TRUETEST</origin>
-    <tag></tag>
+    <tag>App, Login</tag>
     <testCaseGuid>7990d18c-cf0c-4d55-9689-5d1e8a34588c</testCaseGuid>
 </TestCaseEntity>

@@ -30,7 +30,7 @@
         <name>href</name>
         <type>Main</type>
         <value>{{url}}</value>
-        <webElementGuid>e6b24bf6-b082-4486-b6fd-d30afcde9429</webElementGuid>
+        <webElementGuid>7fc80acb-ce11-4d7d-afbe-e22464548198</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -38,6 +38,6 @@
         <name>text</name>
         <type>Main</type>
         <value>Cancel</value>
-        <webElementGuid>e6b24bf6-b082-4486-b6fd-d30afcde9429</webElementGuid>
+        <webElementGuid>7fc80acb-ce11-4d7d-afbe-e22464548198</webElementGuid>
     </webElementProperties>
 </WebElementEntity>

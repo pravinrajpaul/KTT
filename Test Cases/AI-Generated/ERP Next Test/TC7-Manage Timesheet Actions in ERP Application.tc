@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>1e1d0c35-a330-428e-a5f2-060b2af7835b</id>
+        </flow>
+    </customField>
+    <description>Navigate to the projects and timesheet sections. Perform various actions on timesheets, including confirming and canceling actions, and verify the home page.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC7-Manage Timesheet Actions in ERP Application</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>fbe098df-a37a-4e2c-8ac6-98cf0957281e</testCaseGuid>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>17eb7d63-05a8-4d4d-b2d6-769cfb99aeb1</id>
+        <masked>false</masked>
+        <name>button_confirmationYes_nth</name>
+    </variable>
+    <variable>
+        <defaultValue>'2'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>6295aef7-c81b-4703-a083-d98c97771518</id>
+        <masked>false</masked>
+        <name>button_confirmationYes_nth_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'10'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>f2ed0aac-219f-441b-b0e8-8a5f1496c185</id>
+        <masked>false</masked>
+        <name>link_actionOptions_liNthChild</name>
+    </variable>
+    <variable>
+        <defaultValue>'9'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>a9040e6e-e98f-4d28-86c9-0bf736ef8160</id>
+        <masked>false</masked>
+        <name>link_actionOptions_liNthChild_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'10'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>44190ce3-6ad1-4d01-9e51-fb374cdea3d1</id>
+        <masked>false</masked>
+        <name>link_actionOptions_liNthChild_2</name>
+    </variable>
+</TestCaseEntity>

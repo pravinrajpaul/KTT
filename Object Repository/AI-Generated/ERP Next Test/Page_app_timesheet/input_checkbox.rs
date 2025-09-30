@@ -30,6 +30,6 @@
         <name>type</name>
         <type>Main</type>
         <value>checkbox</value>
-        <webElementGuid>dcb03602-487f-4a2a-9e78-b5f9330b0633</webElementGuid>
+        <webElementGuid>e6a3bc03-f591-4eb6-b059-2bca15c8283d</webElementGuid>
     </webElementProperties>
 </WebElementEntity>

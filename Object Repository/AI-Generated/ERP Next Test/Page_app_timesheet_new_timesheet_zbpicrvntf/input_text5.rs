@@ -30,6 +30,6 @@
         <name>type</name>
         <type>Main</type>
         <value>text</value>
-        <webElementGuid>fd39c8ba-5a2c-4c7f-8e6b-829c077120cb</webElementGuid>
+        <webElementGuid>7fc80acb-ce11-4d7d-afbe-e22464548198</webElementGuid>
     </webElementProperties>
 </WebElementEntity>

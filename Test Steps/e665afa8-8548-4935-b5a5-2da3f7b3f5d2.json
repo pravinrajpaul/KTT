@@ -6,7 +6,7 @@
         "step 4: Click on link dailyTimesheetSummary -> Navigate to page '/app/query-report/*'",
         "step 5: Click on link projects -> Navigate to page '/app/projects'",
         "step 6: Click on link timesheet -> Navigate to page '/app/timesheet'",
-        "step 7: Click on button addTimesheet -> Navigate to page '/app/timesheet/new-timesheet-zbpicrvntf'",
+        "step 7: Click on button addTimesheet2 -> Navigate to page '/app/timesheet/new-timesheet-zbpicrvntf'",
         "step 8: Click on input text",
         "step 9: Click on div pvinOption",
         "step 10: Click on input text2",

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>e92e9189-7165-471a-be93-d51e1378f892</id>
+        </flow>
+    </customField>
+    <description>Login to the ERP application, create a new timesheet entry with multiple details, save it, and log out successfully.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC2-Add New Timesheet Entry and Logout from ERP Application</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>450b912b-3b09-4533-b9ed-0e315f948424</testCaseGuid>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>6fd9af21-23f6-45bd-983c-5b6a1ee7fd79</id>
+        <masked>false</masked>
+        <name>input_hoursField</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>f3c42f2d-02a7-4433-9861-7e386def26f8</id>
+        <masked>false</masked>
+        <name>input_hrs</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>e4490a5a-f8b0-43ce-bb21-70c663c67a59</id>
+        <masked>false</masked>
+        <name>input_linkField2</name>
+    </variable>
+</TestCaseEntity>

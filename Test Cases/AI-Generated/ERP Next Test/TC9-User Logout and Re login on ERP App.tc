@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>285e9282-de6f-44c7-bb47-ac42c6e2ae38</id>
+        </flow>
+    </customField>
+    <description>Navigate to the home page, log out, return to the home page, and log in again, verifying that the home page is displayed.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC9-User Logout and Re login on ERP App</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>9cde54fc-4515-4e0a-b314-30077e862beb</testCaseGuid>
+</TestCaseEntity>

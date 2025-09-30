@@ -30,7 +30,7 @@
         <name>href</name>
         <type>Main</type>
         <value>{{url}}</value>
-        <webElementGuid>417d794e-babd-456e-8064-e70979906513</webElementGuid>
+        <webElementGuid>e6a3bc03-f591-4eb6-b059-2bca15c8283d</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -38,6 +38,6 @@
         <name>text</name>
         <type>Main</type>
         <value>Timesheet</value>
-        <webElementGuid>417d794e-babd-456e-8064-e70979906513</webElementGuid>
+        <webElementGuid>e6a3bc03-f591-4eb6-b059-2bca15c8283d</webElementGuid>
     </webElementProperties>
 </WebElementEntity>

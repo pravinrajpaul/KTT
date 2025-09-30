@@ -30,7 +30,7 @@
         <name>text</name>
         <type>Main</type>
         <value>Add Row</value>
-        <webElementGuid>417d794e-babd-456e-8064-e70979906513</webElementGuid>
+        <webElementGuid>7fc80acb-ce11-4d7d-afbe-e22464548198</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -38,6 +38,6 @@
         <name>type</name>
         <type>Main</type>
         <value>button</value>
-        <webElementGuid>417d794e-babd-456e-8064-e70979906513</webElementGuid>
+        <webElementGuid>7fc80acb-ce11-4d7d-afbe-e22464548198</webElementGuid>
     </webElementProperties>
 </WebElementEntity>

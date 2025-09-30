@@ -1,52 +1,71 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-    <comment></comment>
-    <customField>
-        <flow>
-            <id>9d3d3b2b-81c5-4771-adeb-c138628f4c6c</id>
-        </flow>
-    </customField>
-    <description>Login to the ERP application, add a timesheet entry with various activity types, save it, and log out successfully.</description>
-    <integratedEntity>
-        <productName>TESTOPS</productName>
-        <properties>
-            <entry>
-                <key>integratedValue</key>
-                <value>{"status": "DRAFT"}</value>
-            </entry>
-        </properties>
-        <type>TESTCASE</type>
-    </integratedEntity>
-    <name>TC1-Add Timesheet Entry with Activity Types and Logout from ERP Application</name>
-    <origin>TRUETEST</origin>
-    <tag></tag>
-    <testCaseGuid>cc2b2da5-9666-4493-8161-0c8486e499be</testCaseGuid>
-    <variable>
-        <defaultValue>''</defaultValue>
-        <description>Input data variable</description>
-        <id>d60fa9d1-8433-42a8-b6af-ffcf8f1877fc</id>
-        <masked>false</masked>
-        <name>input_fromTime</name>
-    </variable>
-    <variable>
-        <defaultValue>''</defaultValue>
-        <description>Input data variable</description>
-        <id>1b9e12d5-a7df-4908-812f-2b6bb5ef06c4</id>
-        <masked>false</masked>
-        <name>input_hoursField</name>
-    </variable>
-    <variable>
-        <defaultValue>''</defaultValue>
-        <description>Input data variable</description>
-        <id>041e72de-d48b-48c3-9c1c-aea1de775f84</id>
-        <masked>false</masked>
-        <name>input_hoursField2</name>
-    </variable>
-    <variable>
-        <defaultValue>''</defaultValue>
-        <description>Input data variable</description>
-        <id>803180a4-1ce7-465b-affc-9c126ac18cae</id>
-        <masked>false</masked>
-        <name>input_object2</name>
-    </variable>
+   <description>Login to the ERP application, add a timesheet entry with various activity types, save it, and log out successfully.</description>
+   <name>TC1-Add Timesheet Entry with Activity Types and Logout from ERP Application</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;status&quot;: &quot;DRAFT&quot;}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cc2b2da5-9666-4493-8161-0c8486e499be</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d60fa9d1-8433-42a8-b6af-ffcf8f1877fc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1b9e12d5-a7df-4908-812f-2b6bb5ef06c4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>041e72de-d48b-48c3-9c1c-aea1de775f84</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>803180a4-1ce7-465b-affc-9c126ac18cae</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Input data variable</description>
+      <id>d60fa9d1-8433-42a8-b6af-ffcf8f1877fc</id>
+      <masked>false</masked>
+      <name>input_fromTime</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Input data variable</description>
+      <id>1b9e12d5-a7df-4908-812f-2b6bb5ef06c4</id>
+      <masked>false</masked>
+      <name>input_hoursField</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Input data variable</description>
+      <id>041e72de-d48b-48c3-9c1c-aea1de775f84</id>
+      <masked>false</masked>
+      <name>input_hoursField2</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Input data variable</description>
+      <id>803180a4-1ce7-465b-affc-9c126ac18cae</id>
+      <masked>false</masked>
+      <name>input_object2</name>
+   </variable>
 </TestCaseEntity>

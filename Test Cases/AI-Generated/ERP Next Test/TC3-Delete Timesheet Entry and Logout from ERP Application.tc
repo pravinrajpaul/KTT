@@ -1,24 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-    <comment></comment>
-    <customField>
-        <flow>
-            <id>cc30bc56-2cf9-497b-ab8f-0374ebdd86dd</id>
-        </flow>
-    </customField>
-    <description>Login to the ERP application, navigate to projects, delete a timesheet entry, and log out successfully.</description>
-    <integratedEntity>
-        <productName>TESTOPS</productName>
-        <properties>
-            <entry>
-                <key>integratedValue</key>
-                <value>{"status": "DRAFT"}</value>
-            </entry>
-        </properties>
-        <type>TESTCASE</type>
-    </integratedEntity>
-    <name>TC3-Delete Timesheet Entry and Logout from ERP Application</name>
-    <origin>TRUETEST</origin>
-    <tag></tag>
-    <testCaseGuid>6b709a56-91b1-4208-9697-a762fca1c415</testCaseGuid>
+   <description>Login to the ERP application, navigate to projects, delete a timesheet entry, and log out successfully.</description>
+   <name>TC3-Delete Timesheet Entry and Logout from ERP Application</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;status&quot;: &quot;DRAFT&quot;}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6b709a56-91b1-4208-9697-a762fca1c415</testCaseGuid>
 </TestCaseEntity>

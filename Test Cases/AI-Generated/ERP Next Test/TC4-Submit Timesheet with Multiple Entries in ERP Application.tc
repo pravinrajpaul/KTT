@@ -1,66 +1,97 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-    <comment></comment>
-    <customField>
-        <flow>
-            <id>bbc04961-6c90-4ce9-a156-0d7b9ace64c6</id>
-        </flow>
-    </customField>
-    <description>Navigate to the projects and timesheet sections. Add multiple entries to a timesheet, attempt to submit, and verify the home page.</description>
-    <integratedEntity>
-        <productName>TESTOPS</productName>
-        <properties>
-            <entry>
-                <key>integratedValue</key>
-                <value>{"status": "DRAFT"}</value>
-            </entry>
-        </properties>
-        <type>TESTCASE</type>
-    </integratedEntity>
-    <name>TC4-Submit Timesheet with Multiple Entries in ERP Application</name>
-    <origin>TRUETEST</origin>
-    <tag></tag>
-    <testCaseGuid>2c6297e8-52be-4c4a-939a-fb19860e2f6b</testCaseGuid>
-    <variable>
-        <defaultValue>'2'</defaultValue>
-        <description>Dynamic locator variable</description>
-        <id>c07ca9bb-2774-4c50-89b6-c724024e0486</id>
-        <masked>false</masked>
-        <name>div_dynamicObject_divNthChild</name>
-    </variable>
-    <variable>
-        <defaultValue>'20'</defaultValue>
-        <description>Dynamic locator variable</description>
-        <id>119e4f8c-5bea-4da2-8f38-cea6510a3763</id>
-        <masked>false</masked>
-        <name>div_dynamicObject_divNthChild_1</name>
-    </variable>
-    <variable>
-        <defaultValue>'9'</defaultValue>
-        <description>Dynamic locator variable</description>
-        <id>917dfdc9-990c-4b50-a14f-eefc6f1cae13</id>
-        <masked>false</masked>
-        <name>div_dynamicObject_divNthChild_1_1</name>
-    </variable>
-    <variable>
-        <defaultValue>''</defaultValue>
-        <description>Input data variable</description>
-        <id>1017ae25-85f7-4c93-b034-1e9e7cfd7f3b</id>
-        <masked>false</masked>
-        <name>input_hours</name>
-    </variable>
-    <variable>
-        <defaultValue>''</defaultValue>
-        <description>Input data variable</description>
-        <id>19c73316-ffa2-49b8-9560-44449cae6fcc</id>
-        <masked>false</masked>
-        <name>input_linkField2</name>
-    </variable>
-    <variable>
-        <defaultValue>''</defaultValue>
-        <description>Input data variable</description>
-        <id>adff3719-d53d-47c5-9f5b-f323e557029d</id>
-        <masked>false</masked>
-        <name>input_textField3</name>
-    </variable>
+   <description>Navigate to the projects and timesheet sections. Add multiple entries to a timesheet, attempt to submit, and verify the home page.</description>
+   <name>TC4-Submit Timesheet with Multiple Entries in ERP Application</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;status&quot;: &quot;DRAFT&quot;}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2c6297e8-52be-4c4a-939a-fb19860e2f6b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c07ca9bb-2774-4c50-89b6-c724024e0486</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>119e4f8c-5bea-4da2-8f38-cea6510a3763</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>917dfdc9-990c-4b50-a14f-eefc6f1cae13</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1017ae25-85f7-4c93-b034-1e9e7cfd7f3b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>19c73316-ffa2-49b8-9560-44449cae6fcc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>adff3719-d53d-47c5-9f5b-f323e557029d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'2'</defaultValue>
+      <description>Dynamic locator variable</description>
+      <id>c07ca9bb-2774-4c50-89b6-c724024e0486</id>
+      <masked>false</masked>
+      <name>div_dynamicObject_divNthChild</name>
+   </variable>
+   <variable>
+      <defaultValue>'20'</defaultValue>
+      <description>Dynamic locator variable</description>
+      <id>119e4f8c-5bea-4da2-8f38-cea6510a3763</id>
+      <masked>false</masked>
+      <name>div_dynamicObject_divNthChild_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'9'</defaultValue>
+      <description>Dynamic locator variable</description>
+      <id>917dfdc9-990c-4b50-a14f-eefc6f1cae13</id>
+      <masked>false</masked>
+      <name>div_dynamicObject_divNthChild_1_1</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Input data variable</description>
+      <id>1017ae25-85f7-4c93-b034-1e9e7cfd7f3b</id>
+      <masked>false</masked>
+      <name>input_hours</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Input data variable</description>
+      <id>19c73316-ffa2-49b8-9560-44449cae6fcc</id>
+      <masked>false</masked>
+      <name>input_linkField2</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Input data variable</description>
+      <id>adff3719-d53d-47c5-9f5b-f323e557029d</id>
+      <masked>false</masked>
+      <name>input_textField3</name>
+   </variable>
 </TestCaseEntity>

@@ -14,6 +14,8 @@ def setup() {
 	WebUI.setViewPortSize(1920, 1080)	
 }
 
+assert 1 == 1
+
 "Step 1: Navigate to /app/home"
 
 TrueTestScripts.navigate("/app/home")

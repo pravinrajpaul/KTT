@@ -1,10 +1,4 @@
 Flow ID,Name,Description,Test Steps,Flow Priority,Status
-10,User Logout and Verification on ERP App,"Navigate to the home page, log in, access the user menu, log out, and verify that the login page is displayed.","Step 1: Navigate to /
-Step 2: Login -> Navigate to page '/app/home'
-Step 3: Click on button userMenu
-Step 4: Click on button logOut -> Navigate to page '/login'
-Step 5: Take full page screenshot as checkpoint
-",High,NEW
 3,Delete Timesheet Entry and Logout from ERP Application,"Login to the ERP application, navigate to projects, delete a timesheet entry, and log out successfully.","Step 1: Navigate to /
 Step 2: Login -> Navigate to page '/app/home'
 Step 3: Click on link projects -> Navigate to page '/app/projects'
@@ -16,7 +10,7 @@ Step 8: Click on button confirmYes
 Step 9: Click on button userMenu
 Step 10: Click on button logOut -> Navigate to page '/login'
 Step 11: Take full page screenshot as checkpoint
-",High,STABLE
+",High,RETAINED
 2,Add New Timesheet Entry and Logout from ERP Application,"Login to the ERP application, create a new timesheet entry with multiple details, save it, and log out successfully.","Step 1: Navigate to /
 Step 2: Login -> Navigate to page '/app/home'
 Step 3: Click on link projects -> Navigate to page '/app/projects'
@@ -54,7 +48,7 @@ Step 34: Click on link timesheet -> Navigate to page '/app/timesheet'
 Step 35: Click on button userMenu
 Step 36: Click on button logOut -> Navigate to page '/login'
 Step 37: Take full page screenshot as checkpoint
-",High,STABLE
+",High,RETAINED
 1,Add Timesheet Entry with Activity Types and Logout from ERP Application,"Login to the ERP application, add a timesheet entry with various activity types, save it, and log out successfully.","Step 1: Navigate to /
 Step 2: Login -> Navigate to page '/app/home'
 Step 3: Click on link projects -> Navigate to page '/app/projects'
@@ -96,7 +90,15 @@ Step 38: Click on button modalAction
 Step 39: Click on button userMenu
 Step 40: Click on button logOut -> Navigate to page '/login'
 Step 41: Take full page screenshot as checkpoint
-",High,STABLE
+",High,RETAINED
+12,User Login to ERP Application,"Navigate to the home page, enter email and password, click login, and verify successful access to the home page of the ERP application.","Step 1: Navigate to /
+Step 2: Click on input email
+Step 3: Enter input value in input email
+Step 4: Click on input password
+Step 5: Enter input value in input password
+Step 6: Click on button login -> Navigate to page ''
+Step 7: Take full page screenshot as checkpoint
+",Medium,NEW
 5,Add Timesheet Entry in ERP App Projects,"Navigate to the app home, access projects, add a new timesheet entry with feedback and hours, and save the entry before returning to the home page.","Step 1: Navigate to /app/home
 Step 2: Click on link projects -> Navigate to page '/app/projects'
 Step 3: Click on div timesheetLink -> Navigate to page '/app/timesheet'
@@ -129,14 +131,7 @@ Step 29: Click on input checkbox2
 Step 30: Click on button save -> Navigate to page '/app/timesheet/*'
 Step 31: Click on link timesheet -> Navigate to page ''
 Step 32: Take full page screenshot as checkpoint
-",Medium,NEW
-8,User Logout and Email Input on ERP App,"Navigate to the home page, log in, access the user menu, log out, input email, and verify that the home page is displayed.","Step 1: Navigate to /
-Step 2: Login -> Navigate to page '/app/home'
-Step 3: Click on button userMenu
-Step 4: Click on button logOut -> Navigate to page '/login'
-Step 5: Click on input email -> Navigate to page ''
-Step 6: Take full page screenshot as checkpoint
-",Medium,NEW
+",Medium,RETAINED
 4,Submit Timesheet with Multiple Entries in ERP Application,"Navigate to the projects and timesheet sections. Add multiple entries to a timesheet, attempt to submit, and verify the home page.","Step 1: Navigate to /app/home
 Step 2: Click on link projects -> Navigate to page '/app/projects'
 Step 3: Click on div timesheetLink -> Navigate to page '/app/timesheet'
@@ -175,14 +170,46 @@ Step 35: Click on button submit
 Step 36: Click on button confirmNo
 Step 37: Click on link timesheet -> Navigate to page ''
 Step 38: Take full page screenshot as checkpoint
-",Medium,NEW
-9,User Logout and Re login on ERP App,"Navigate to the home page, log out, return to the home page, and log in again, verifying that the home page is displayed.","Step 1: Navigate to /
-Step 2: Click on link uh
-Step 3: Click on link logOut
-Step 4: Click on link home
-Step 5: Login -> Navigate to page ''
-Step 6: Take full page screenshot as checkpoint
+",Medium,RETAINED
+13,Create New Project and Logout from ERP Application,"Login to the ERP app, create a new project, save it, and log out to verify return to the home page.","Step 1: Navigate to /app/home
+Step 2: Navigate to projects and create a new project in the ERP app.
+	- Step 1: Click on link projects2 -> Navigate to page '/app/projects'
+	- Step 2: Click on div project -> Navigate to page '/app/project'
+	- Step 3: Click on button addProject
+	- Step 4: Click on input object
+	- Step 5: Enter input value in input object
+Step 3: Click on button save
+Step 4: Access user menu and log out from the ERP application.
+	- Step 1: Click on link projects -> Navigate to page '/app/projects'
+	- Step 2: Click on div project -> Navigate to page '/app/project'
+	- Step 3: Click on button userMenu
+	- Step 4: Click on button logOut -> Navigate to page '/login'
+	- Step 5: Click on div loginContent
+Step 5: Take full page screenshot as checkpoint
 ",Low,NEW
+11,Create Project and Verify Logout from ERP Application,"Login to the ERP app, create and save a new project, access the project, and log out to ensure return to the home page.","Step 1: Navigate to /
+Step 2: Click on input email
+Step 3: Enter input value in input email
+Step 4: Click on input password
+Step 5: Enter input value in input password
+Step 6: Click on button login
+Step 7: Navigate to projects and create a new project in the ERP app.
+	- Step 1: Click on link projects2 -> Navigate to page '/app/projects'
+	- Step 2: Click on div project -> Navigate to page '/app/project'
+	- Step 3: Click on button addProject
+	- Step 4: Click on input object
+	- Step 5: Enter input value in input object
+Step 8: Click on button save
+Step 9: Click on link project
+Step 10: Click on link project
+Step 11: Access user menu and log out from the ERP application.
+	- Step 1: Click on link projects -> Navigate to page '/app/projects'
+	- Step 2: Click on div project -> Navigate to page '/app/project'
+	- Step 3: Click on button userMenu
+	- Step 4: Click on button logOut -> Navigate to page '/login'
+	- Step 5: Click on div loginContent
+Step 12: Take full page screenshot as checkpoint
+",Trivial,NEW
 7,Manage Timesheet Actions in ERP Application,"Navigate to the projects and timesheet sections. Perform various actions on timesheets, including confirming and canceling actions, and verify the home page.","Step 1: Navigate to /app/home
 Step 2: Click on link projects -> Navigate to page '/app/projects'
 Step 3: Click on div timesheetLink -> Navigate to page '/app/timesheet'
@@ -201,7 +228,7 @@ Step 15: Click on button actions
 Step 16: Click on link actionOptions (delete)
 Step 17: Click on button confirmationYes (yes2) -> Navigate to page ''
 Step 18: Take full page screenshot as checkpoint
-",Trivial,NEW
+",Trivial,RETAINED
 6,Add New Timesheet Entry in ERP Application,"Login and navigate to the projects and timesheet sections. Add a new timesheet entry with details and save it, then verify the home page.","Step 1: Navigate to /
 Step 2: Login -> Navigate to page '/app/home'
 Step 3: Click on link projects -> Navigate to page '/app/projects'
@@ -230,4 +257,4 @@ Step 25: Click on div addRow
 Step 26: Click on button save -> Navigate to page '/app/timesheet/*'
 Step 27: Click on link timesheet -> Navigate to page ''
 Step 28: Take full page screenshot as checkpoint
-",Trivial,NEW
+",Trivial,RETAINED

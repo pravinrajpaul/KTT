@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>1c471ef3-21ba-4a35-9958-88f694da7f64</id>
+        </flow>
+    </customField>
+    <description>Login to the ERP app, create and save a new project, access the project, and log out to ensure return to the home page.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC11-Create Project and Verify Logout from ERP Application</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>d641102a-7684-4f89-a66a-450d46fb7bba</testCaseGuid>
+    <variable>
+        <defaultValue>'Data Files/AI-Generated/ERP Next Test/Common/createNewProjectInERPApp-test-data'</defaultValue>
+        <description>Common function data file id</description>
+        <id>0a5e8d51-ab1f-4edc-953c-382456c21a88</id>
+        <masked>false</masked>
+        <name>data_path_0</name>
+    </variable>
+    <variable>
+        <defaultValue>'2'</defaultValue>
+        <description>Common function data row index</description>
+        <id>c707efa8-d605-45e0-a43d-c69dd1ed5b41</id>
+        <masked>false</masked>
+        <name>index_0</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>f88e5e96-667f-467f-afe4-727a9d5eb40a</id>
+        <masked>false</masked>
+        <name>input_email</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>9e4104f2-0b7d-4ccb-8b8e-5784737d60c9</id>
+        <masked>false</masked>
+        <name>input_password</name>
+    </variable>
+</TestCaseEntity>

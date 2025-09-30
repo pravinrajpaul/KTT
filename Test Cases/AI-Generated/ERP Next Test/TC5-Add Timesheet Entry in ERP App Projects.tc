@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>84a3be94-e06d-4b80-a331-40f02e56ec96</id>
+        </flow>
+    </customField>
+    <description>Navigate to the app home, access projects, add a new timesheet entry with feedback and hours, and save the entry before returning to the home page.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC5-Add Timesheet Entry in ERP App Projects</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>1f8ffed9-f227-4f57-bef7-6ccc3e0c7ed6</testCaseGuid>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>bc3bbce9-985f-4073-bc75-54a17a783775</id>
+        <masked>false</masked>
+        <name>input_feedback2</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>4860e853-8d18-4549-9ce5-dad4c6dc0bc0</id>
+        <masked>false</masked>
+        <name>input_hours</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>43ba88cc-164d-469e-ab88-5846daf919ac</id>
+        <masked>false</masked>
+        <name>input_hrs</name>
+    </variable>
+</TestCaseEntity>

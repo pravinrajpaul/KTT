@@ -1,0 +1,10 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on link uh",
+        "step 3: Click on link logOut",
+        "step 4: Click on link home",
+        "step 5: Login -> Navigate to page ''",
+        "step 6: Take full page screenshot as checkpoint"
+    ]
+}

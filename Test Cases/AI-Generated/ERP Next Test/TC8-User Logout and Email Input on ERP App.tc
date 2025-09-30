@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>b9087d1a-d07a-4603-9076-d27a73ebce96</id>
+        </flow>
+    </customField>
+    <description>Navigate to the home page, log in, access the user menu, log out, input email, and verify that the home page is displayed.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC8-User Logout and Email Input on ERP App</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>a7a53340-1707-4042-b5e6-c8f7667f8238</testCaseGuid>
+</TestCaseEntity>

@@ -1,24 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-    <comment></comment>
-    <customField>
-        <flow>
-            <id>abc21ee4-ae75-4dea-85a4-dff627d45cbe</id>
-        </flow>
-    </customField>
-    <description>Navigate to the home page, log in, access the user menu, log out, and verify that the login page is displayed.</description>
-    <integratedEntity>
-        <productName>TESTOPS</productName>
-        <properties>
-            <entry>
-                <key>integratedValue</key>
-                <value>{"status": "DRAFT"}</value>
-            </entry>
-        </properties>
-        <type>TESTCASE</type>
-    </integratedEntity>
-    <name>TC10-User Logout and Verification on ERP App</name>
-    <origin>TRUETEST</origin>
-    <tag></tag>
-    <testCaseGuid>fee9e92b-ad53-42ff-a533-8ed8d1bc7d12</testCaseGuid>
+   <description>Navigate to the home page, log in, access the user menu, log out, and verify that the login page is displayed.</description>
+   <name>TC10-User Logout and Verification on ERP App</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;status&quot;: &quot;DRAFT&quot;}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fee9e92b-ad53-42ff-a533-8ed8d1bc7d12</testCaseGuid>
 </TestCaseEntity>

@@ -1,38 +1,45 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-    <comment></comment>
-    <customField>
-        <flow>
-            <id>e665afa8-8548-4935-b5a5-2da3f7b3f5d2</id>
-        </flow>
-    </customField>
-    <description>Login and navigate to the projects and timesheet sections. Add a new timesheet entry with details and save it, then verify the home page.</description>
-    <integratedEntity>
-        <productName>TESTOPS</productName>
-        <properties>
-            <entry>
-                <key>integratedValue</key>
-                <value>{"status": "DRAFT"}</value>
-            </entry>
-        </properties>
-        <type>TESTCASE</type>
-    </integratedEntity>
-    <name>TC6-Add New Timesheet Entry in ERP Application</name>
-    <origin>TRUETEST</origin>
-    <tag></tag>
-    <testCaseGuid>054ce228-751e-45d0-94bc-55f189c7bee3</testCaseGuid>
-    <variable>
-        <defaultValue>''</defaultValue>
-        <description>Input data variable</description>
-        <id>f82db75a-5a64-474d-8060-7007265caac5</id>
-        <masked>false</masked>
-        <name>input_hrs</name>
-    </variable>
-    <variable>
-        <defaultValue>''</defaultValue>
-        <description>Input data variable</description>
-        <id>7b5a655c-b4b1-4a1d-a36b-71bd198085b1</id>
-        <masked>false</masked>
-        <name>input_text3</name>
-    </variable>
+   <description>Login and navigate to the projects and timesheet sections. Add a new timesheet entry with details and save it, then verify the home page.</description>
+   <name>TC6-Add New Timesheet Entry in ERP Application</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;status&quot;: &quot;DRAFT&quot;}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>054ce228-751e-45d0-94bc-55f189c7bee3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f82db75a-5a64-474d-8060-7007265caac5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7b5a655c-b4b1-4a1d-a36b-71bd198085b1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Input data variable</description>
+      <id>f82db75a-5a64-474d-8060-7007265caac5</id>
+      <masked>false</masked>
+      <name>input_hrs</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Input data variable</description>
+      <id>7b5a655c-b4b1-4a1d-a36b-71bd198085b1</id>
+      <masked>false</masked>
+      <name>input_text3</name>
+   </variable>
 </TestCaseEntity>

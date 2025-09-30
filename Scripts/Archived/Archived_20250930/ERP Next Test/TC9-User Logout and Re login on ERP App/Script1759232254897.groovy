@@ -22,19 +22,19 @@ TrueTestScripts.navigate("/")
 
 "Step 2: Click on link uh"
 
-WebUI.enhancedClick(findTestObject('AI-Generated/ERP Next Test/Page_home/link_uh'))
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250930/ERP Next Test/Page_home/link_uh'))
 
 // WebUI.takeScreenshot(reportLocation + '/TC9/Step 2-Click on link uh.png')
 
 "Step 3: Click on link logOut"
 
-WebUI.enhancedClick(findTestObject('AI-Generated/ERP Next Test/Page_home/link_logOut'))
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250930/ERP Next Test/Page_home/link_logOut'))
 
 // WebUI.takeScreenshot(reportLocation + '/TC9/Step 3-Click on link logOut.png')
 
 "Step 4: Click on link home"
 
-WebUI.enhancedClick(findTestObject('AI-Generated/ERP Next Test/Page_home/link_home'))
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250930/ERP Next Test/Page_home/link_home'))
 
 // WebUI.takeScreenshot(reportLocation + '/TC9/Step 4-Click on link home.png')
 

@@ -30,7 +30,7 @@
         <name>href</name>
         <type>Main</type>
         <value>{{url}}</value>
-        <webElementGuid>417d794e-babd-456e-8064-e70979906513</webElementGuid>
+        <webElementGuid>c226f5cc-87e3-4595-bf2a-47faa8259df0</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
         <name>text</name>
         <type>Main</type>
         <value>Projects</value>
-        <webElementGuid>417d794e-babd-456e-8064-e70979906513</webElementGuid>
+        <webElementGuid>c226f5cc-87e3-4595-bf2a-47faa8259df0</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -46,6 +46,6 @@
         <name>title</name>
         <type>Main</type>
         <value>Projects</value>
-        <webElementGuid>417d794e-babd-456e-8064-e70979906513</webElementGuid>
+        <webElementGuid>c226f5cc-87e3-4595-bf2a-47faa8259df0</webElementGuid>
     </webElementProperties>
 </WebElementEntity>

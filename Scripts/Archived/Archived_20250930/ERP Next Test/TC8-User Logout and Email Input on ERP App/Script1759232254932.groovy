@@ -26,19 +26,25 @@ TrueTestScripts.login()
 
 "Step 3: Click on button userMenu"
 
-WebUI.enhancedClick(findTestObject('AI-Generated/ERP Next Test/Page_app_home/button_userMenu'))
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250930/ERP Next Test/Page_app_home/button_userMenu'))
 
-// WebUI.takeScreenshot(reportLocation + '/TC10/Step 3-Click on button userMenu.png')
+// WebUI.takeScreenshot(reportLocation + '/TC8/Step 3-Click on button userMenu.png')
 
 "Step 4: Click on button logOut -> Navigate to page '/login'"
 
-WebUI.enhancedClick(findTestObject('AI-Generated/ERP Next Test/Page_app_home/button_logOut'))
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250930/ERP Next Test/Page_app_home/button_logOut'))
 
-// WebUI.takeScreenshot(reportLocation + '/TC10/Step 4-Click on button logOut - Navigate to page login.png')
+// WebUI.takeScreenshot(reportLocation + '/TC8/Step 4-Click on button logOut - Navigate to page login.png')
 
-"Step 5: Take full page screenshot as checkpoint"
+"Step 5: Click on input email -> Navigate to page ''"
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC10-User Logout and Verification on ERP App_visual_checkpoint')
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250930/ERP Next Test/Page_login/input_email'))
+
+// WebUI.takeScreenshot(reportLocation + '/TC8/Step 5-Click on input email - Navigate to page .png')
+
+"Step 6: Take full page screenshot as checkpoint"
+
+WebUI.takeFullPageScreenshotAsCheckpoint('TC8-User Logout and Email Input on ERP App_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

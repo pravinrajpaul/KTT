@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>eb206662-1252-4cfe-bdde-93e130590fe2</id>
+        </flow>
+    </customField>
+    <description>Navigate to the home page, enter email and password, click login, and verify successful access to the home page of the ERP application.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC12-User Login to ERP Application</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>c154bb68-4909-4d56-b4df-df313b37b520</testCaseGuid>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>8f579062-d4bb-445a-b6a2-7acdd3cffcbf</id>
+        <masked>false</masked>
+        <name>input_email</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>7fa79fda-3bc6-4ff2-91fd-d015200782de</id>
+        <masked>false</masked>
+        <name>input_password</name>
+    </variable>
+</TestCaseEntity>
